@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/OCA/knowledge.svg?branch=8.0)](https://travis-ci.org/OCA/knowledge)
-[![Coverage Status](https://coveralls.io/repos/OCA/knowledge/badge.png?branch=8.0)](https://coveralls.io/r/OCA/knowledge?branch=8.0)
+[![codecov](https://codecov.io/gh/OCA/knowledge/branch/8.0/graph/badge.svg)](https://codecov.io/gh/OCA/knowledge)
 
 Knowledge
 =========
@@ -19,13 +19,14 @@ document\_page\_multi\_company (unported)
 -----------------------------------------
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
 [attachment_edit](attachment_edit/) | 8.0.1.0.0 | Edit attachments after upload
-[attachment_preview](attachment_preview/) | 8.0.1.1.0 | Preview attachments supported by Viewer.js
-[attachments_to_filesystem](attachments_to_filesystem/) | 8.0.1.0.0 | Move existing attachments to filesystem
+[attachment_preview](attachment_preview/) | 8.0.1.2.0 | Preview attachments supported by Viewer.js
+[attachments_to_filesystem](attachments_to_filesystem/) | 8.0.1.0.1 | Move existing attachments to filesystem
 [document_choose_directory](document_choose_directory/) | 8.0.1.0.0 | Choose a document's directory during upload
 [document_no_unique_filenames](document_no_unique_filenames/) | 8.0.1.0.0 | Drop the uniquness constraint on filenames for directories
 [document_ocr](document_ocr/) | 8.0.1.0.0 | Run character recognition on uploaded files
@@ -34,8 +35,10 @@ addon | version | summary
 [document_page_partner_id](document_page_partner_id/) | 8.0.1.0.0 | Allows to link doucment pages to a partner
 [document_page_tags](document_page_tags/) | 8.0.1.0.0 | Allows you to assign tags or keywords to pages and search for them afterwards
 [document_reindex](document_reindex/) | 8.0.1.0.0 | Reindex your already uploaded documents
+[document_rtf_index](document_rtf_index/) | 8.0.1.0.0 | Index rtf documents
 [document_sftp](document_sftp/) | 8.0.1.0.0 | Access your documents via SFTP
 [document_url](document_url/) | 8.0.1.0.0 | URL attachment
+
 
 Unported addons
 ---------------
